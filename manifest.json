@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "STELE Visit Tracker",
+  "version": "1.4.0",
+  "description": "Save and summarize heritage sites visited on STELE.",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["http://stele.geogv.org/*", "https://stele.geogv.org/*"],
+    "js": ["common.js", "content.js"],
+    "css": ["content.css"]
+  }],
+  "action": { "default_title": "STELE Visit Tracker", "default_popup": "popup.html" }
+}

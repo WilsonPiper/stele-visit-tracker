@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>STELE Visit Tracker</title><link rel="stylesheet" href="popup.css"><script defer src="common.js"></script><script defer src="popup.js"></script></head>
+<body><header><div class="eyebrow">STELE · 中国遗产地图</div><h1>我的到访记录</h1><p>My heritage visits</p></header>
+<main><section id="summary" class="summary" aria-label="Visit summary"></section><p id="world-warning" class="world-warning" role="status"></p>
+<div class="toolbar"><input id="search" type="search" placeholder="搜索名称或地点 / Search" aria-label="Search sites"><select id="filter" aria-label="Filter by level"><option value="">所有级别 / All levels</option></select></div>
+<div id="message" role="status" aria-live="polite"></div><div id="sites" class="sites"></div>
+<footer><button id="csv">导出 CSV</button><button id="backup">备份 JSON</button><button id="restore">导入备份</button><input id="file" type="file" accept="application/json,.json" hidden><p>保存在本机浏览器中 · Stored locally</p></footer></main></body></html>

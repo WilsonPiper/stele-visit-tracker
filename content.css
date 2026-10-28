@@ -1,0 +1,4 @@
+#stele-visit-control { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; }
+#stele-visit-control button { border: 1px solid #176a61; background: #176a61; color: white; border-radius: 6px; padding: 7px 11px; cursor: pointer; font: inherit; font-weight: 600; }
+#stele-visit-control button.saved { background: #fff; color: #176a61; }
+#stele-visit-control span { color: #52605e; }
